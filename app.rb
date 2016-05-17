@@ -3,7 +3,7 @@ require 'json'
 require 'sinatra'
 require './responder'
 
-# https://developers.facebook.com/sa/apps/1691303421130772/messenger/
+# https://developers.facebook.com/sa/apps/<YOUR_APP_ID>/messenger/
 URL = 'https://graph.facebook.com/v2.6/me/messages?access_token=XXXXX'
 
 get '/webhook' do
